@@ -2,7 +2,7 @@
 
 /**
  * 
- * Simple plugin that gives you the urls of your pages only.
+ * Simple plugin that gives you the urls of your pages, posts and everything else. It is useful to generate a network chart.
  *
  * @link              http://www.lije-creative.com
  * @since             1.0.0
@@ -10,7 +10,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Show Pages List
- * Description:       Simple plugin that gives you the urls of your pages only. What for? <a href="#">Learn more here.</a>
+ * Description:       Simple plugin that gives you the urls of your pages only. What for? <a href="http://www.lije-creative.com/visualiser-linking-interne-tables-fusion/">Learn more here.</a>
  * Version:           1.0.0
  * Author:            LIJE Creative
  * Author URI:        http://www.lije-creative.com
