@@ -64,17 +64,5 @@ class Show_Pages_List_Admin {
 		wp_enqueue_style( $this->show_pages_list, plugin_dir_url( __FILE__ ) . 'css/show-pages-list-admin.css', array(), $this->version, 'all' );
 
 	}
-
-	/**
-	 * Register the JavaScript for the dashboard.
-	 *
-	 * @since    1.0.0
-	 */
-	public function enqueue_scripts() {
-
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/jquery.generateFile.js', array( 'jquery' ), $this->version, false );
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/script.js', array( 'jquery' ), $this->version, false );
-
-	}	
 	
 }

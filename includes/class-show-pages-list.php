@@ -146,7 +146,6 @@ class Show_Pages_List {
 		$plugin_admin = new Show_Pages_List_Admin( $this->get_show_pages_list(), $this->get_version() );
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 		
 	}
 
