@@ -1,0 +1,15 @@
+/**
+ * All of the CSS for the dashboard-specific functionality
+ */
+#pages_list, #posts_list, #all_list {
+	background:none white;
+	padding:20px 50px 20px 20px;
+	margin:10px auto 0;
+	width:98%;
+	height:200px;
+	-moz-box-shadow: 0px 0px 10px 3px #656565;
+	-webkit-box-shadow: 0px 0px 10px 3px #656565;
+	-o-box-shadow: 0px 0px 10px 3px #656565;
+	box-shadow: 0px 0px 10px 3px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=10);	
+}
