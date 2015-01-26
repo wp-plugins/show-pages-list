@@ -29,5 +29,7 @@ Just enable the plugin to get the list. No configuration. #KISS
 
 = 1.0 =
 * First push
+= 1.1 =
+* Bug fix
 
 == Upgrade Notice ==

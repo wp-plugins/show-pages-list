@@ -11,7 +11,7 @@
  * @wordpress-plugin
  * Plugin Name:       Show Pages List
  * Description:       Simple plugin that gives you the urls of your pages only. What for? <a href="http://www.lije-creative.com/visualiser-linking-interne-tables-fusion/">Learn more here.</a>
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            LIJE Creative
  * Author URI:        http://www.lije-creative.com
  * License:           GPL-2.0+

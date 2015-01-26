@@ -16,7 +16,7 @@
 <p><?php _e('All Pages'); ?> :</p>
 <textarea id="pages_list">
 <?php
-	$pages = array_map( 'get_permalink', get_posts( array( 'post_type'=>'page','post_status' => 'publish' ) ));
+	$pages = array_map( 'get_permalink', get_posts( array( 'post_type'=>'page','post_status' => 'publish', 'numberposts' => 99999 ) ));
     $i = 0;
 	$len = count($pages);
 	foreach($pages as $page) {
@@ -31,7 +31,7 @@
 <p><?php _e('All Posts'); ?> :</p>
 <textarea id="posts_list">
 <?php
-	$posts = array_map( 'get_permalink', get_posts( array( 'post_type'=>'post','post_status' => 'publish' ) ));
+	$posts = array_map( 'get_permalink', get_posts( array( 'post_type'=>'post','post_status' => 'publish', 'numberposts' => 99999 ) ));
     $i = 0;
 	$len = count($posts);
 	foreach($posts as $post) {
@@ -48,7 +48,7 @@
 <?php
 	$post_types = get_post_types();
 	foreach ( $post_types as $post_type ) {
-		$allpages = array_map( 'get_permalink', get_posts( array( 'post_type'=>$post_type,'post_status' => 'publish' ) ));
+		$allpages = array_map( 'get_permalink', get_posts( array( 'post_type'=>$post_type,'post_status' => 'publish', 'numberposts' => 99999 ) ));
 		foreach($allpages as $singlepage) {
 			echo $singlepage;
 			echo "\n";
